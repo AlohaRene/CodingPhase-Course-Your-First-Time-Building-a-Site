@@ -24,7 +24,7 @@ body {
   box-shadow: 0px 10px 41px -17px rgba(84, 88, 247, 1);
 }
 .box .background-image {
-  background: url("https://www.gotokyo.org/en/plan/tokyo-outline/images/main.jpg");
+  background: url("https://pbs.twimg.com/profile_banners/993700208558125056/1630458034/1080x360");
   background-position: center bottom;
   background-size: cover;
   background-repeat: none;
@@ -51,4 +51,45 @@ body {
   position: absolute;
   top: -75px;
   box-shadow: 0 0 41px -17px rgba(84, 88, 247, 1);
+}
+.box .content-area .info-section .name {
+  font-size: 2rem;
+  text-align: center;
+}
+.box .content-area .info-section .position {
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  color: grey;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.box .content-area .contact-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.box .content-area .contact-section #follow-button {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  background: #5458f7;
+  border: 1px solid #ffffff;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.box .content-area .contact-section .email-button {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  background: white;
+  border: 1px solid #f2f2f2;
+  padding: 10px 20px;
+  color: #5458f7;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.box .content-area .contact-section .email-button .fa-paper-plane {
+  margin-right: 10px;
 }
