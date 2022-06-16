@@ -11,4 +11,5 @@ Created with CodeSandbox
 
 <ul>
 <li><strong>Rene Arenas Flores</strong> - <em>Initial work</em></li>
+  <li>Aloha</li>
 </ul>
